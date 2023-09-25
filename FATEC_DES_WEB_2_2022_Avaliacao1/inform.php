@@ -51,8 +51,8 @@
                 </thead>
                 <tbody>
                     <?php
-                        if(file_exists("inform.TXT")){ 
-                            $file = file("inform.TXT"); 
+                        if(file_exists("inform.txt")){ 
+                            $file = file("inform.txt"); 
                             foreach($file as $line){ 
                                 $line = trim($line);
                                 $livro = explode("|",$line);
